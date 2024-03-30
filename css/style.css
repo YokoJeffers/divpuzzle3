@@ -44,7 +44,6 @@ body  {
   position: relative;
 }
 .container2  {
-  padding: 0 10px;
   position: absolute;
   top: 40px;
   left: 40px;
@@ -55,6 +54,9 @@ body  {
   background: #ff863f;
   margin-bottom: 10px;
   border: 5px solid #ffffff;
+}
+.container2 .orange:last-child {
+  margin-bottom: 0;
 }
 .footer  {
   width: 400px;
